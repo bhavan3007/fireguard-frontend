@@ -155,7 +155,7 @@ export default function Sidebar() {
   );
 
   return (
-    <aside className="w-64 h-screen bg-gradient-to-b from-slate-900 to-slate-800 text-slate-100 border-r border-white/10 flex flex-col">
+    <aside className="w-64 h-[85vh] sm:h-screen max-h-screen rounded-r-2xl sm:rounded-none bg-gradient-to-b from-slate-900 to-slate-800 text-slate-100 border-r border-white/10 flex flex-col shadow-2xl">
     <SidebarContent />
   </aside>
   );
