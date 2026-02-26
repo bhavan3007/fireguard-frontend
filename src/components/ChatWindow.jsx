@@ -110,7 +110,7 @@ export default function ChatWindow() {
   }, [messages, loading]);
 
   return (
-    <div className="flex flex-col h-screen w-full bg-slate-950">
+    <div className="flex flex-col h-[85vh] sm:h-[95vh] lg:h-screen w-full bg-slate-950">
       <div className="sticky top-0 z-50 flex items-center gap-3 px-5 py-4 bg-slate-900 border-b border-white/10">
         <ShieldAlert className="text-red-500" size={22} />
         <div>
