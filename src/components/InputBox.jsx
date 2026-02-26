@@ -42,7 +42,7 @@ export default function InputBox({ onSend }) {
   };
 
   return (
-    <div className="p-4 flex items-center gap-3 bg-slate-900 border-t border-white/10">
+    <div className="   sticky bottom-0 z-50   p-3 sm:p-4   flex items-center gap-3   bg-slate-900/95 backdrop-blur-md   border-t border-white/10   shadow-[0_-10px_40px_rgba(0,0,0,0.8)] ">
       <button
         onClick={startListening}
         className={`p-3 rounded-full ${
